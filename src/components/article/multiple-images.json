@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_article_multiple_images",
+  "info": {
+    "displayName": "MultipleImages"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
