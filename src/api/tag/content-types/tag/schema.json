@@ -12,15 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
     "news": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::news-item.news-item",
-      "inversedBy": "tags"
-    },
-    "name": {
-      "type": "string",
-      "required": true
+      "mappedBy": "tags"
     }
   }
 }

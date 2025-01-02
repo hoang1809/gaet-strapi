@@ -432,6 +432,7 @@ export interface ApiImageImage extends Struct.CollectionTypeSchema {
 export interface ApiNewsItemNewsItem extends Struct.CollectionTypeSchema {
   collectionName: 'news';
   info: {
+    description: '';
     displayName: 'News';
     pluralName: 'news';
     singularName: 'news-item';
